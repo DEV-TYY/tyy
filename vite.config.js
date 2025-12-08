@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/tyy-dev/",  // correct for https://dev-tyy.github.io/tyy-dev/
+  base: "/tyy-dev/",   // 👈 MUST MATCH your GitHub repo name
 });
