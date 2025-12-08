@@ -33,7 +33,7 @@ h3{
 .mt-2{
     margin-top: 2rem;
 }
-@media screen and(max-width: 780px){
+@media screen and (max-width: 780px){
     .list{
         padding: .8rem 1.5rem;
     }
