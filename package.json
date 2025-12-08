@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dev-tyy.github.io/tyy-dev",
+  "homepage": "https://dev-tyy.github.io/tyy-dev/",
   "name": "suon-ty-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,10 +7,10 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^19.2.0",
