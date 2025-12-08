@@ -1,0 +1,104 @@
+.navbar{
+   min-height: 14vh;
+}
+.logo{
+    font-size: 1.8rem;
+    color: var(--text-primary-clr);
+    font-weight: bold;
+}
+.logo span{
+    display: inline-block;
+    background: var(--accent-clr);
+    color: var(--background-clr);
+    width: 2.8rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    text-align: center;
+    margin-right: .4rem;
+}
+.link{
+    font-size: .95rem;
+    color: var(--text-secondary-clr);
+    transition: .3s ease-in-out;
+}
+.link:hover{
+    color: var(--accent-clr);
+}
+.gap-2{
+    gap: 2rem;
+}
+.btn{
+    display: inline-block;
+    padding: .7rem 1.5rem;
+    background: var(--accent-clr);
+    color: var(--background-clr);
+    font-weight: bold;
+    font-size: .9rem;
+    border-radius: 100vw;
+    border: .1rem solid var(--accent-clr);
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background: transparent;
+    color: var(--accent-clr);
+}
+.icon-container{
+    width: 2.7rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-inverse{
+    border: .1rem solid rgba(123, 123, 123, 0.2);
+    color: var(--text-secondary-clr);
+}
+.hamberger{
+    color: var(--text-primary-clr);
+    font-size: 1.5rem;
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width: 790px){
+    .desktop-menu,
+    .nav-action .btn{
+        display: none;
+    }
+    .hamberger{
+        display: block;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .logo span{
+        width: 2.5rem;
+        margin-right: .2rem;
+    }
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        position: absolute;
+        top: 20%;
+        left: -100%;
+        transform: translateX(-50%);
+        background: rgba(var(--surface-clr), 0.2);
+        backdrop-filter: blur(20px);
+        border: .1rem solid rgba(123, 123, 123, 0.2);
+        width: 20rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        z-index: 99;
+        transition: .5s ease-in-out;
+    }
+    .mobile-menu-active{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

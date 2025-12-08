@@ -1,0 +1,19 @@
+.about-image,
+.about-content{
+    flex:1;
+    flex-basis: 300px;
+}
+.about-image{
+    margin-right: 10px;
+}
+h6{
+    font-size: 2rem;
+    color: var(--accent-clr);
+    text-align: center;
+}
+.m-block-3{
+    margin-block: 3rem;
+}
+.gap-5{
+    gap: 5rem;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --background-clr: #080808;
+  --surface-clr: #141414;
+  --text-primary-clr: #FFF;
+  --text-secondary-clr: #b1b1b1;
+  --accent-clr: #7AFC0F;
+}
+body{
+  background: var(--background-clr);
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.column{
+  flex-direction: column;
+}
+.between{
+  justify-content: space-between;
+}
+.center{
+  justify-content: center;
+}
+.wrapper{
+  max-width: 1400px;
+  margin: auto;
+  padding-inline: 2rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.p-block-9{
+  padding-block: 9rem;
+}
