@@ -1,0 +1,14 @@
+.middle{
+    position: relative;
+}
+.middle::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.green-inverse{
+    background: var(--accent-clr);
+    color: var(--background-clr);
+}
+.p-bottom-1{
+    padding-bottom: 1rem;
+}
