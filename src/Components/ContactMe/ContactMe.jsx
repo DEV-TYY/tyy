@@ -16,7 +16,7 @@ const ContactMe = () => {
                         Let's Talk for <span className='green-text'> Your Next Project</span>
                     </h2>
                 </div>
-                <div className="flex gap-5 mt-5 start">
+                <div className="flex gap-5 mt-5">
                     <form>
                         <div className="flex gap-2">
                             <div className="input-container">
