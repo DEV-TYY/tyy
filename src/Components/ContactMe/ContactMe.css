@@ -1,0 +1,58 @@
+form{
+    flex: 2;
+}
+.info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail{
+    background: var(--surface-clr);
+    padding: 1.5rem;
+    border-radius: 1rem 1rem 0 0;
+    border: .1rem solid rgba(123, 123, 123, 0.2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail h6{
+    font-size: 1.5rem;
+    text-align: start;
+    margin: 4px 4px;
+}
+.rounded-b{
+    border-radius: 0 0 1rem 1rem;
+}
+.input-container{
+    flex: 1;
+}
+label{
+    font-size: .9rem;
+    color: var(--text-primary-clr);
+}
+.input-field{
+    width: 100%;
+    background: var(--surface-clr);
+    border: .1rem solid rgba(123, 123, 123, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: .5rem;
+}
+.input-field:focus{
+    outline: .09rem solid var(--accent-clr);
+}
+.select,
+.input-field::placeholder{
+    color: gray;
+}
+textarea{
+    resize: none;
+}
+.stretch{
+    align-items: stretch;
+}
+.start{
+    justify-content: start;
+}
