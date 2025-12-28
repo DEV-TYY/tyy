@@ -11,9 +11,35 @@
   --text-secondary-clr: #b1b1b1;
   --accent-clr: #7AFC0F;
 }
+[data-theme = "light"]{
+  --background-clr: #FFF;
+  --surface-clr: #F5F5F5;
+  --text-primary-clr: #080808;
+  --text-secondary-clr: #333;
+  --fix-clr: #080808;
+}
 body{
   background: var(--background-clr);
+  overflow-x: hidden;
 }
+/* Width of scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--accent-clr);
+  border-radius: 8px;
+  transition: .5s ease-in-out;
+}
+
 a{
   text-decoration: none;
 }

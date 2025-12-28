@@ -5,10 +5,13 @@
 form{
     flex: 2;
     flex-basis: 300px;
-    
 }
 .info{
     flex: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .detail{
     background: var(--surface-clr);

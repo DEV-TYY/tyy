@@ -7,7 +7,8 @@
 }
 .green-inverse{
     background: var(--accent-clr);
-    color: var(--background-clr);
+    color: var(--fix-clr);
+    border: .1rem solid var(--accent-clr);
 }
 .p-bottom-1{
     padding-bottom: 1rem;

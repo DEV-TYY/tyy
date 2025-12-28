@@ -24,7 +24,7 @@ h3{
 .list{
     padding: .8rem 2rem;
     background: var(--accent-clr);
-    color: var(--background-clr);
+    color: var(--fix-clr);
     border-radius: 100vw;
 }
 .gap-1{

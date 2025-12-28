@@ -20,9 +20,13 @@ h5 small{
     font-weight: 500;
 }
 .black-inverse{
-    background: var(--background-clr);
-    border: .1rem solid var(--background-clr);
+    background: var(--fix-clr);
+    border: .1rem solid var(--fix-clr);
     color: var(--accent-clr);
+}
+.black-inverse:hover.black-inverse{
+    color: var(--background-clr);
+    background: transparent;
 }
 .self-start{
     align-self: flex-start;

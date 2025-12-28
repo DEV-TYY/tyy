@@ -1,11 +1,19 @@
 import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
+import { FaRegMoon } from "react-icons/fa";
 import { FiSun } from "react-icons/fi"
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 
 
 const Navbar = () => {
   const [isMenuActive, setISMneuActive] = useState(false);
+  const [theme, setTheme] = useState('dark');
+  useEffect(()=> {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+  const toggleTheme = () => {
+    setTheme(prev=>(prev === 'dark' ? 'light' : 'dark'));
+  }
   const toggleMenu = () => {
     setISMneuActive(!isMenuActive);
   }
@@ -34,7 +42,9 @@ const Navbar = () => {
              </li>
          </ul>
          <div className="flex gap-2 nav-action">
-             <a href="#" className="icon-container border-inverse"><FiSun/></a>
+             <a onClick={toggleTheme} href="#" className="icon-container border-inverse">
+                {theme === 'dark' ? <FiSun/> : <FaRegMoon />}
+            </a>
              <a href="#" className="btn">Let's Talk</a>
              <a href="#" className="hamberger"onClick={toggleMenu}>
                 {isMenuActive ? <FaXmark/> : <FaBarsStaggered /> }

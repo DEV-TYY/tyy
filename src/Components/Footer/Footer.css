@@ -1,0 +1,81 @@
+.copyright{
+    background: var(--accent-clr);
+    padding-block: 2rem;
+}
+.copyright p{
+    color: var(--fix-clr);
+    font-weight: 500;
+}
+.p-block-2{
+    padding-block: 2rem;
+}
+.p-block-7{
+    padding-block: 7rem;
+}
+
+.footer-wrapper{
+    flex: 1;
+    flex-basis: 150px;
+}
+.footer-wrapper:nth-child(1){
+    flex: 2;
+    flex-basis: 300px;
+}
+.footer-wrapper:nth-child(1) p{
+    max-width: 350px;
+}
+.footer-wrapper h6 {
+    text-align: start;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem; 
+    color: var(--accent-clr);
+    letter-spacing: 0.5px;
+}
+
+/* Decorative underline */
+.footer-wrapper h6::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background-color: var(--accent-clr);
+    border-radius: 2px;
+}
+.flex-start{
+    align-items: flex-start;
+}
+
+.footer-input {
+    display: flex;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 280px;
+}
+
+.email-field {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 6px;
+    background: var(--surface-clr);
+    border: .1rem solid rgba(123, 123, 123, 0.2);
+    color: var(--accent-clr);
+}
+.email-field:focus{
+    outline: .09rem solid var(--accent-clr);
+}
+
+.input-btn {
+    background: var(--accent-clr);
+    color: var(--fix-clr);
+    border: none;
+    padding: 0 1rem;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}

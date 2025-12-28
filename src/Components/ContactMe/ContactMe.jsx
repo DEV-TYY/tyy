@@ -91,7 +91,7 @@ const ContactMe = () => {
                         </div>
                     </form>
                     <div className='info'>
-                        <div className='detail'>
+                        <div className='detail gap-4'>
                             <div>
                                 <h6>Address</h6>
                                 <p>Nº 9e2, St 372, Beong Salang , Toul Kork, <br />Phnom Penh</p>
@@ -130,7 +130,6 @@ const ContactMe = () => {
                                     <SlSocialLinkedin />
                                 </a>
                             </div>
-
                         </div>
                     </div>
                 </div>
