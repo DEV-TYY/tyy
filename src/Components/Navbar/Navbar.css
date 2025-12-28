@@ -68,10 +68,16 @@
 .mobile-menu{
     display: none;
 }
+@media screen and (max-width: 1024px) {
+    .desktop-menu,
+    .nav-action .btn {
+        display: none;
+    }
+}
 @media screen and (max-width: 790px){
     .desktop-menu,
     .nav-action .btn{
-        display: none;
+        display: none !important;
     }
     .hamberger{
         display: block;
