@@ -5,7 +5,7 @@ import "./AboutMe.css"
 
 const AboutMe = () => {
   return (
-    <section>
+    <section id="about">
       <div className="flex gap-5 wrapper p-block-9 border-btm">
           <div className="about-image">
               <img src={AboutImage} alt="" />

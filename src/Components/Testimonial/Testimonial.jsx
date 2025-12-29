@@ -30,7 +30,7 @@ const Testimonial = () => {
         )
     })
   return (
-    <section>
+    <section id="testimonials">
         <div className="wrapper p-block-9 border-btm">
             <div className='text-center'>
                 <span className='sub-text overlay-text middle' datatype='Client Testimonials'>Client Testimonials</span>

@@ -50,23 +50,26 @@ export default Projects
 const ProjectData = [
     {
         id: 1,
-        title: "Smart Financial Dashboard for Digital Management",
+        title: "RED-ANT-MOBILE-ADMIN",
         description: "A modern, user-friendly dashboard for tracking income, expenses, analytics, and card details with quick transfer and activity summaries.",
         image: Project1,
         tech: [
             {
                 id: 1,
-                list: 'React Js'
+                list: 'MySQL Server'
             },
             {
                 id: 2,
-                list: 'Next Js'
+                list: 'Laravel'
             },
             {
                 id: 3,
-                list: 'Vue Js'
+                list: 'JavaScript'
             },
-
+            {
+                id: 4,
+                list: 'Tailwind CSS'
+            },
         ]
     },
     {

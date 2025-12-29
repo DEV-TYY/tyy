@@ -10,6 +10,7 @@ import Plans from './Components/Plans/Plans'
 import Testimonial from './Components/Testimonial/Testimonial'
 import ContactMe from './Components/ContactMe/ContactMe'
 import Footer from './Components/Footer/Footer'
+import SparkCursor from './Components/animates/cursor'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <ContactMe/>
       <Headline/>
       <Footer/>
+      <SparkCursor />
     </div>
   )
 }

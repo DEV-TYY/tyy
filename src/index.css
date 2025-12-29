@@ -18,9 +18,32 @@
   --text-secondary-clr: #333;
   --fix-clr: #080808;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   background: var(--background-clr);
   overflow-x: hidden;
+}
+i{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--accent-clr);
+    pointer-events: none;
+    animation: animate 2s linear forwards;
+}
+
+@keyframes animate
+{
+    0%{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(var(--x), var(--y));
+    }
 }
 /* Width of scrollbar */
 ::-webkit-scrollbar {

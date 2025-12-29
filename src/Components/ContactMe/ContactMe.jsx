@@ -8,7 +8,7 @@ import React from 'react'
 
 const ContactMe = () => {
     return (
-        <section>
+        <section id="contact">
             <div className="wrapper p-block-9 border-btm">
                 <div className='text-center'>
                     <span className='sub-text overlay-text middle' datatype='Contact Me'>Contact Me</span>

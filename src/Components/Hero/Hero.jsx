@@ -5,8 +5,8 @@ import "./Hero.css"
 
 const Hero = () => {
   return (
-    <section>
-        <div className='hero-section flex wrapper gap-4'>
+    <section id='home'>
+        <div className='hero-section flex wrapper gap-5'>
             <div className='hero-content'>
                 <span className='sub-text'>Hello there!</span>
                 <h1>
