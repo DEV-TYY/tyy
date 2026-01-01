@@ -75,6 +75,7 @@ h4{
     position: absolute;
     background: var(--accent-clr);
     inset: 2rem 0 7rem -0.6rem;
+    width: 10px;
     z-index: -1;
     border-radius: inherit;
 }

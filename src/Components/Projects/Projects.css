@@ -1,3 +1,7 @@
+.project {
+  overflow: visible;
+  will-change: transform, opacity;
+}
 .project-image,
 .project-content{
     flex: 1;

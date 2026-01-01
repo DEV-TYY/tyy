@@ -14,7 +14,7 @@ import SparkCursor from './Components/animates/cursor'
 
 const App = () => {
   return (
-    <div>
+    <section id='control'>
       <Navbar/>
       <Hero/>
       <Headline/>
@@ -29,7 +29,7 @@ const App = () => {
       <Headline/>
       <Footer/>
       <SparkCursor />
-    </div>
+    </section>
   )
 }
 
