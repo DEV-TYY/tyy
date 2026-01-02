@@ -120,7 +120,7 @@ const PlansData = [
   {
     id: 2,
     title: "Monthly",
-    price: "$9600",
+    price: "$96.00",
     unit: "Month",
     features: [
       { id: 1, label: "Lorem ipsum dolor sit amet", include: true },
@@ -136,7 +136,7 @@ const PlansData = [
   {
     id: 3,
     title: "Quarterly",
-    price: "$28,000",
+    price: "$100.000",
     unit: "Qtr",
     features: [
       { id: 1, label: "Lorem ipsum dolor sit amet", include: true },
